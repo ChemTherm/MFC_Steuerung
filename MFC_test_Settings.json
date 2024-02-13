@@ -1,0 +1,77 @@
+{
+    
+    "TKINTER":{
+        "background-color": "#F2F2F2",
+        "border-color": "#000000",
+        "tabpadx": 50,
+        "font-size": 22, 
+        "scrW": 1300,
+        "scrH": 800
+    },
+    "Background":{
+        "name": "./img/MFC.png",
+        "width": 614,
+        "height": 302,
+        "factor": 1,
+        "x": 50,
+        "y": 240
+    },
+    "Close":{
+        "name": "./img/close.png",
+        "width": 50,
+        "height": 50,
+        "factor": 1,
+        "x": 1130,
+        "y": 30
+        
+    },
+   
+
+    "CONTROL":{
+        "Name": "MFC Steuerung",
+        "amount": 1,
+        "DigitalOut": [],
+        "DualAnalogIn": ["Yee"],
+        "DualAnalogIn4-20": [],
+        "AnalogOut": ["27A7"],
+        "Stepper": [],
+        "Tc-R": [          ], 
+        "Tc-DO_index":[  ],
+        "Tc-DO_channel":[ ],
+        "Tc": [ ],
+        "Tc-S": []
+    },
+    
+    "PATH":{
+        "SaveFile": "./Daten/Test.dat",
+        "images": "./img/"
+    },
+    
+    "MFC":{
+        "amount":1,
+        "name":           [         "CA"],
+        "AnalogOut_index":[         0],
+        "DualAnalogIn_index":[      0],
+        "DualAnalogIn_channel":[    1],
+        "gradient":            [    2.6],
+        "y-axis":               [   0],
+        "unit":                [    "ml/min"],
+        "x": 50,
+        "y": 20,
+        "ExcelIndex":[3]
+    },
+    
+    "Pressure":{
+        "amount":0,
+        "name":           [         "Eintritt",   "Austritt"],
+        "DualAnalogIn_index":[      null,              null],
+        "DualAnalogIn_channel":[    null,              null],
+        "DualAnalogInmA_index":[    0,              null],
+        "DualAnalogInmA_channel":[  0,              null],
+        "gradient":            [    1,              1],
+        "y-axis":               [   0,              0],
+        "unit":                [    "mbar",         "mbar"],
+        "x":                   [    70,            800],
+        "y":                   [    220,            220]
+    }
+}
